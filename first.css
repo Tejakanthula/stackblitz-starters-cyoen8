@@ -1,0 +1,108 @@
+/* Base styling for the body */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* Styling for the header */
+header {
+  background: #35424a;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+}
+
+header h1 {
+  margin: 10px 0;
+  font-size: 2em;
+}
+
+header p {
+  margin: 5px 0;
+  font-style: italic;
+}
+
+/* Styling for the banner image */
+.banner {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+/* Container for main content */
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for sections */
+h2 {
+  color: #35424a;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+/* Styling for code blocks */
+pre {
+  background: #f4f4f4;
+  padding: 10px;
+  border-left: 4px solid #35424a;
+  overflow-x: auto;
+}
+
+/* Styling for the footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #35424a;
+  color: #ffffff;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Media queries for different devices */
+
+/* For tablets */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.75em;
+  }
+
+  main {
+    padding: 15px;
+  }
+
+  .logo {
+    width: 80px;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.5em;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  .logo {
+    width: 60px;
+  }
+}
